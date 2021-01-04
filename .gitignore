@@ -35,7 +35,7 @@
 # auto-import.
 # .idea/artifacts
 # .idea/compiler.xml
-# .idea/jarRepositories.xml
+## .idea/jarRepositories.xml
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
@@ -77,8 +77,8 @@ fabric.properties
 
 ### Intellij Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
-
-# *.iml
+.idea/
+*.iml
 # modules.xml
 # .idea/misc.xml
 # *.ipr
@@ -140,6 +140,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+.mvn
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
